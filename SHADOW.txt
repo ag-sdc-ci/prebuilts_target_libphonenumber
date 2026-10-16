@@ -1,0 +1,6 @@
+shadow prebuilt repo: libphonenumber (target)
+  upstream: external/libphonenumber
+  api-level: 34 (branch 34-20261016)
+  blobs: org.blisslabs.ag.ext.libphonenumber.apex
+  dev-src: extracted extractive payload (share/libphonenumber/*.jar) + root Android.bp
+  date: 2026-10-16

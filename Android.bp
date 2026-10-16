@@ -1,0 +1,38 @@
+// Auto-generated prebuilt Blueprint for external/libphonenumber
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.libphonenumber
+
+package {
+    default_applicable_licenses: ["external_libphonenumber_license"],
+}
+
+license {
+    name: "external_libphonenumber_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "NOTICE",
+    ],
+}
+
+java_import {
+    name: "libphonenumber",
+    jars: ["share/libphonenumber/libphonenumber.jar"],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "libphonenumber-platform",
+    jars: ["share/libphonenumber/libphonenumber-platform.jar"],
+    host_supported: true,
+    prefer: true,
+}
+
+java_import {
+    name: "libphonenumber-nogeocoder",
+    jars: ["share/libphonenumber/libphonenumber-nogeocoder.jar"],
+    host_supported: true,
+    prefer: true,
+}
